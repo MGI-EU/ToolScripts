@@ -1,0 +1,75 @@
+
+  
+  /** 加载动画 */
+  .spinner > div {
+    background-color: #F2F2F2;
+    background-color: orangered\0; /* IE 样式 */
+  }
+  
+  /** 普通文字、字体图标颜色 */
+  .action, #listing h2, .card h3, .collapsible > label *, .dashboard p label, .message {
+    color: #1e88b3;
+  }
+  #search .boxes h3
+  {
+    color: #a09d9d;
+  }
+  
+  /** 链接文字颜色 */
+  a {
+    color: #1e88b3;
+  }
+  
+  /** 输入框、表格标题文字颜色 */
+  #search.active i, #search.active input, table th {
+    color: #1e88b3;
+  }
+  
+  /** 主体、弹窗颜色 */
+  #loading, #login, #search.active #input, body, header, .card, #search .boxes, .ace-chrome .ace_gutter-active-line {
+    background-color: #ffffff;
+    color: #1e88b3;
+  }
+  
+  /** 搜索页面、列表标题样式 */
+  #search #input, #search #result, .input, #listing.list .item.header, .ace-chrome .ace_gutter, .share__box__download { 
+    background-color:#ffffff;
+    color: #000000;
+  }
+  
+  /** 列表项目、文本编辑、命令行、文件分享样式 */
+.ace-chrome, .shell, .share__box {
+    background-color: #1e88b3;
+    color: #000000;
+  }
+  #listing .item
+  {
+    background-color: #ffffff;
+    color: #ebac5b;
+  }
+
+  #listing .item .name {
+    color: #000000;
+  }
+  #listing .item div:last-of-type * {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #000000;
+  }
+
+  /** 加载页面、登录页面信息提示 */
+  #loading::after, #login::after {
+      position: absolute;
+      bottom: 5px;
+      width: 100%;
+      display: block;
+      font-size: 12px;
+      text-align: center;
+      content: '请使用 Chromium 内核浏览器或 Firefox 进行访问！';
+      color: #1e88b3;
+      /* IE 样式 */
+      bottom: 30px\0;
+      font-size: 36px\0;
+      color: tomato\0;
+  }
+
